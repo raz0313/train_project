@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="./js/omasim_js.js"></script>
+    <link rel="stylesheet" href="./css/omasim_style.css">
+    <link rel="stylesheet" href="./css/base_style.css">
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="init()">
+<div class="back_style">
+<header class="header">
+    <a href="./train_info.html" > <button class="button">מידע על מסלולים</button></a>
+        <img src="./img/logo.webp" class="logo_img"> 
+
+      
+    
+</header>
+<main>
+    
+    <div class="row">
+        <p class="text_box_h1"> מידע על עומסים </p>
+    </div>
+   
+       
+    <div class="row">
+        
+       <div class="info">
+            
+          <select class="select"  id="train_number" >
+              <option  hidden >בחר מס' קו</option>
+             
+          </select>
+        
+        </div>
+        <div class="info">
+           
+          <select class="select" id="train_station">
+            <option  hidden>בחר מס' תחנה </option>
+        
+          </select>
+        
+        </div>
+    </div>
+
+    <div class="row">
+        <div  id="train_time_info">
+
+        </div>
+
+    </div>
+
+</main>
+</div>
+
+</body>
+</html>

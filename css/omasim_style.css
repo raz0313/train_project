@@ -1,0 +1,126 @@
+body{
+    direction: rtl;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.logo_img{
+    align-items: right;
+    top: 4rem;
+    right: 4rem;
+    width:20vw;
+}
+.back_style{
+  height: 97vh;
+    
+    background-image:linear-gradient(to right bottom,  rgba(41, 50 ,139,0.8),rgba(202, 204, 214, 0.8)), url(../img/home.jpg);
+    background-size: cover;
+    background-position:top ;
+   
+
+}
+.header{
+ width: 100%;
+ 
+ display: block;
+ margin-bottom: 1px;
+}
+.text_box_h1{
+   
+
+    text-align: center;
+    color: #474256;
+   
+    font-size: 3vw;
+
+}
+
+.select{
+    padding: 0.5rem 1rem ;
+    border: none;
+    border-radius: 100px;
+    font-size: 1.5vw;
+    border: 5px solid white;
+    background-color: rgba(70, 70, 70, 0%);
+    font:bold;
+    
+}
+.select:focus , .select::before{
+    border: none;
+    border: 5px solid white;
+}
+.select option{
+    padding: 0.5rem 1rem ;
+    border-radius: 100px;
+    font-size:1.5vw;
+    background-color: rgba(70, 70, 70, 0%);
+}
+.info{
+    display: inline-block;
+    text-align: center;
+    padding: 1rem;
+}
+
+.train_info{
+    font-size: 2vw;
+   display: inline-block;
+   padding: 1rem;
+
+   background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 40px 40px;
+}
+
+
+.row{
+    max-width: 114rem;
+   
+    margin: 0 auto;
+    text-align: center;
+    
+
+  
+}
+.row:not(:last-child){
+    margin-bottom: 1rem;  
+   
+}
+.button{
+    float: left;
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: block;
+  font-family: Neucha, sans-serif;
+  font-size: 1.5vw;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.button:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}

@@ -1,4 +1,4 @@
-const api_url = "https://www.rail.co.il/apiinfo/api/Plan/GetRoutes?OId=9700&TId=4680&Date=20220202&Hour=0630";
+const api_url = "https://www.rail.co.il/apiinfo/api/Plan/GetRoutes?OId=9700&TId=4680&Date=20220203&Hour=0630";
 
 
 function init(){

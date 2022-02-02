@@ -14,7 +14,7 @@ main{
     width:20vw;
 }
 .back_style{
-  height:100%;
+        min-height: 100vh;
     
     background-image:linear-gradient(to right bottom,  rgba(41, 50 ,139,0.8),rgba(202, 204, 214, 0.8)), url(../img/home.jpg);
     background-size: cover;
